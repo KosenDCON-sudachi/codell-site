@@ -14,6 +14,12 @@ class FeatureContents {
 
 const features = [
   new FeatureContents({
+    id: "dcon2026-awards",
+    title: "ARを用いた介護DXサービスがトヨタ自動車および文部科学大臣より評価され、表彰されました。",
+    date: "2026/05/09",
+    onClick: () => window.open("https://dcon.ai/teams/kamiyama2026/", "_blank"),
+  }),
+  new FeatureContents({
     id: "dcon2026",
     title: "介護現場特化のARシステム開発で事業評価額2億4000万円を認定されました。",
     date: "2026/05/09",
