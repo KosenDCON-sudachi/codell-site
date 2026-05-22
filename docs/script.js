@@ -25,6 +25,12 @@ const features = [
     date: "2026/05/09",
     onClick: () => window.open("https://dcon.ai/teams/kamiyama2026/", "_blank"),
   }),
+  new FeatureContents({
+    id: "kencho2026",
+    title: "県庁に表敬しました",
+    date: "2026/05/22",
+    onClick: () => window.open("https://x.com/preftokushima/status/2057692326873739371?s=20", "_blank"),
+  }),
 ];
 
 function renderFeatures() {
